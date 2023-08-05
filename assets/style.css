@@ -349,11 +349,11 @@ p {
     max-width: 100%;
     height: auto;
 }
-#picture .view-more{
+ .view-more{
     margin-top: -1px;
     text-align: center;
 }
-#picture .view-more a{
+ .view-more a{
     display: block;
     padding-top: 40px;
     padding-bottom: 37px;
@@ -366,7 +366,7 @@ p {
     font-weight: 100;
     transition: all .3s ease 0s;
 }
-#picture .view-more a:hover{
+ .view-more a:hover{
     background: #dedede;
     color: #4b4e53;
 }
@@ -437,7 +437,7 @@ p {
     background: #2c2c2c url('../assets/img/work-proc-bg.jpg') fixed;
     color: #f1f1f1;
 }
-#process .title-content h2{
+ .title-content h2{
     color: #f1f1f1;
     border-color: #f1f1f1;
     margin: 0;
@@ -448,7 +448,7 @@ p {
     line-height: 36px;
     border-left: #f1f1f1 2px solid;
 }
-#process .title-content p{
+ .title-content p{
     color: #d3d4d5;
     margin-bottom: 50px;
     margin-top: 50px;
@@ -480,4 +480,9 @@ p {
     position: relative;
     margin-left: 0;
     font-size: 45px;
+}
+#team{
+    padding-top: 100px;
+    background: #f4f4f4;
+    padding-bottom: 100px;
 }
