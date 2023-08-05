@@ -208,6 +208,8 @@ p {
 
 #responsive {
     border-top: 1px solid #7e8082;
+    border-bottom: 1px solid #7e8082;
+    margin-bottom: 100px;
 }
 
 #responsive .col-6 .title-content {
@@ -256,4 +258,87 @@ p {
     background-repeat: no-repeat;
     height: 473px;
     background-position: center center;
+}
+.fes3-img{
+    background: url('../assets/img/fes3.jpg') 50% 50% no-repeat;
+    width: 100%;
+    display: block;
+    position: relative;
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    height: 473px;
+    background-position: center center;
+}
+#ourservices{
+    margin-bottom: 100px
+}
+#ourservices .fes-box h2{
+    margin-left: -60px;
+    padding: 22px 25px 24px 25px;
+    font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 36px;
+    color: #4b4e53;
+    border-left: #4b4e53 2px solid;
+}
+#ourservices .fes-title-content h3{
+    font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+    color: #4b4e53;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 0;
+}
+#ourservices .col-4 .fes-box{
+    position: relative;
+    padding-left: 70px;
+    padding-bottom: 15px;
+}
+#ourservices .col-4 .fes-box-icon{
+    position: absolute;
+    top: 7px;
+    left: 0;
+    color: #4b4e53;
+    font-size: 45px;
+}
+.icon-basic-settings:before {
+    content: "\e1c3";
+}
+#ourservices .fes-box h3{
+    font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+    color: #4b4e53;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 0;
+}
+#ourservices .fes-box p{
+    margin: 0 0 10px;
+    font-size: 14px;
+    line-height: 25px;
+    font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+    font-weight: 400;
+    color: #7e8082;
+}
+.icon-basic-share:before {
+    content: "\e1c4";
+}
+#ourservices .fes-box-desc{
+    color: #7e8082;
+    font-size: 14px;
+    line-height: 25px;
+    font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+    font-weight: 400;
+
+}
+.icon-basic-target:before {
+    content: "\e1d3";
+}
+.icon-basic-globe:before {
+    content: "\e18c";
+}
+.icon-basic-picture:before {
+    content: "\e1b5";
 }
