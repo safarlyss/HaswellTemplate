@@ -511,4 +511,147 @@ p {
 }
 #mobile{
     padding-top: 100px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #dadada;
+}
+#mobile .title{
+    color: #4b4e53;
+    font-family: Lato,Arial,Helvetica,sans-serif;
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 300;
+}
+#mobile  .fes-text{
+    margin-top: 30px;
+    font-family: Lato,Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #7e8082;
+}
+#mobile .button{
+    margin-top: 30px;
+}
+#mobile .button a{
+    padding: 8px 35px 8px 35px!important;
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+    color: #7a7b80 !important;
+    border: 2px solid #c5c2c2;
+    transition: all .3s ease 0s;
+}
+#mobile  .button a:hover{
+    background-color: #4b4e53!important;
+    border: 2px solid #4b4e53!important;
+    color: #fff!important;
+}
+#option{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#option .title{
+    color: #4b4e53;
+    font-family: Lato,Arial,Helvetica,sans-serif;
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 300;
+}
+#option  .fes-text{
+    margin-top: 30px;
+    font-family: Lato,Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #7e8082;
+}
+#option .button{
+    margin-top: 30px;
+}
+#option .button a{
+    padding: 8px 35px 8px 35px!important;
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+    color: #7a7b80 !important;
+    border: 2px solid #c5c2c2;
+    transition: all .3s ease 0s;
+}
+#option  .button a:hover{
+    background-color: #4b4e53!important;
+    border: 2px solid #4b4e53!important;
+    color: #fff!important;
+}
+#becreative{
+    will-change: background-position;
+    margin: 0;
+    background: #2c2c2c url('../assets/img/work-proc-bg.jpg') fixed;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+#becreative .row{
+    margin: 0 auto;
+    text-align: center;
+    font-family: Lato,Arial,Helvetica,sans-serif;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 100;
+    color: #f1f1f1;
+}
+#becreative .row::before{
+    content: '\0020';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+#becreative span a{
+    display: inline-block;
+    padding: 20px;
+    font-size: 80px;
+    line-height: 63px;
+    color: #fff;
+    vertical-align: middle;
+}
+#news{
+    padding-top: 100px;
+}
+#news .title{
+    color: #4b4e53;
+    font-family: Lato,Arial,Helvetica,sans-serif;
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 300;
+}
+#news  .fes-text{
+    margin-top: 30px;
+    font-family: Lato,Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #7e8082;
+}
+#news .button{
+    margin-top: 30px;
+}
+#news .button a{
+    padding: 8px 35px 8px 35px!important;
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+    color: #7a7b80 !important;
+    border: 2px solid #c5c2c2;
+    transition: all .3s ease 0s;
+}
+#news  .button a:hover{
+    background-color: #4b4e53!important;
+    border: 2px solid #4b4e53!important;
+    color: #fff!important;
+}
+#news h2 a{
+    float: right;
+    font-size: 14px;
+    font-weight: 400;
+    color: #7e8082;
 }
