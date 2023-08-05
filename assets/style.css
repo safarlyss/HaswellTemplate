@@ -342,3 +342,142 @@ p {
 .icon-basic-picture:before {
     content: "\e1b5";
 }
+#picture .col-4 img{
+    width: 100%;
+    display: block;
+    overflow: hidden;   transition: all .3s cubic-bezier(.3,.1,.58,1);
+    max-width: 100%;
+    height: auto;
+}
+#picture .view-more{
+    margin-top: -1px;
+    text-align: center;
+}
+#picture .view-more a{
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 37px;
+    background: #eee;
+    font-family: Lato,Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    color: #4b4e53;
+    outline: 0!important;
+    font-weight: 100;
+    transition: all .3s ease 0s;
+}
+#picture .view-more a:hover{
+    background: #dedede;
+    color: #4b4e53;
+}
+#picture{
+    margin-bottom: 100px;
+}
+#clients{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#clients .fes-box{
+    margin-bottom: 50px;
+}
+#clients .fes-box h2{
+    margin: 0;
+    padding: 22px 25px 24px 25px;
+    font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 36px;
+    color: #4b4e53;
+    border-left: #4b4e53 2px solid;
+}
+#clients .client-row .col-3{
+    border-bottom: 1px solid #eee !important;
+}
+#clients .col-3 img{
+    height: 100px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    border-right: 1px solid #eee;
+    max-width: 100%;
+}
+#clients blockquote{
+    padding: 10px 20px;
+    font-style: normal;
+    border: none!important;
+    position: relative;
+    font-size: 14px;
+    font-family: Lato,Arial,Helvetica,sans-serif;
+    line-height: 32px;
+    color: #4b4e53;
+    font-weight: 100;
+    margin: 0 0 20px;
+}
+#clients blockquote p{
+    margin-bottom: 24px;
+    color: #4b4e53;
+    font-family: Lato,Arial,Helvetica,sans-serif;
+    font-size: 21px;
+    line-height: 32px;
+    font-weight: 100;
+    font-style: normal;
+}
+#clients blockquote footer{
+    font-size: 14px;
+    color: #7e8082;
+    font-style: normal;
+}
+#clients blockquote footer:before{
+    content: '\2014 \00A0';
+}
+#process{
+    will-change: background-position;
+    margin: 0;
+    padding-top: 130px;
+    padding-bottom: 80px;
+    background: #2c2c2c url('../assets/img/work-proc-bg.jpg') fixed;
+    color: #f1f1f1;
+}
+#process .title-content h2{
+    color: #f1f1f1;
+    border-color: #f1f1f1;
+    margin: 0;
+    padding: 22px 25px 24px 25px;
+    font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 36px;
+    border-left: #f1f1f1 2px solid;
+}
+#process .title-content p{
+    color: #d3d4d5;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.icon-basic-lightbulb:before {
+    content: "\e19b";
+}
+#process .fes-box {
+    margin-bottom: 50px;
+}
+#process .fes-box h3{
+    font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+    color: #f1f1f1;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 0;
+}
+.icon-basic-gear:before {
+    content: "\e189";
+}
+.icon-basic-laptop:before {
+    content: "\e199";
+}
+.icon-basic-paperplane:before {
+    content: "\e1b1";
+}
+#process .fes-box-icon{
+    top: 7px;
+    position: relative;
+    margin-left: 0;
+    font-size: 45px;
+}
