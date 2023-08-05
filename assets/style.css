@@ -484,5 +484,31 @@ p {
 #team{
     padding-top: 100px;
     background: #f4f4f4;
+}
+#counter{
+    padding-top: 100px;
+    border-bottom: 1px solid #dadada !important;
     padding-bottom: 100px;
+}
+#counter .col-3{
+    border-right: 1px solid #dadada;
+    text-align: center;
+}
+#counter .count-number {
+    margin-top: 17px;
+    font-size: 45px;
+    line-height: 45px;
+    color: #4b4e53;
+    font-weight: 100;
+}
+#counter .count-desc{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#counter .count-desc span{
+    font-size: 14px;
+    color: #7e8082;
+}
+#mobile{
+    padding-top: 100px;
 }
