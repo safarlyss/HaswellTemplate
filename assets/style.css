@@ -16,7 +16,7 @@ header .col-2 {
     display: block;
     padding: 33px 0 25px 0;
     transition: all .4s ease 0s;
-    float: left!important;
+    float: left !important;
     position: relative;
     margin-left: -80px;
     width: 133px;
@@ -59,10 +59,12 @@ header .col-2 a::after {
     height: 0;
     clear: both;
 }
-header .col-10{
+
+header .col-10 {
     float: right;
 }
-header .col-10 .current a{
+
+header .col-10 .current a {
     padding: 38px 3px 5px 3px;
     margin: 0 12px 17px 12px;
     border-bottom: 2px solid #2d4e53;
@@ -70,21 +72,24 @@ header .col-10 .current a{
     letter-spacing: 2px;
     background-color: transparent;
 }
-header .col-10 li a{
+
+header .col-10 li a {
     font-size: 12px;
     color: #5c6066;
     z-index: 1;
     text-shadow: none;
     letter-spacing: 2px;
-    transition: padding .4s ease 0s,border-color .6s ease 0s;
+    transition: padding .4s ease 0s, border-color .6s ease 0s;
     transform: translateZ(0);
     line-height: 20px;
 }
+
 header .col-10 {
     margin-left: 120px !important;
     margin: 33px 0 25px 0;
 }
-header .col-10 li .search::before{
+
+header .col-10 li .search::before {
     top: 11px;
     left: 11px;
     width: 16px;
@@ -92,7 +97,8 @@ header .col-10 li .search::before{
     border-radius: 50%;
     border: 1px solid #4b4e53;
 }
-header .col-10 li .search::after{
+
+header .col-10 li .search::after {
     height: 1px;
     width: 8px;
     background: #4b4e53;
@@ -100,6 +106,154 @@ header .col-10 li .search::after{
     right: 13px;
     transform: rotate(45deg);
 }
-header .col-10 li .search i{
+
+header .col-10 li .search i {
     font-size: 14px;
+}
+
+#creative {
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+#creative .col-4 img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+#creative .col-8 .title {
+    color: #4b4e53;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 300;
+}
+
+#creative .col-8 .title .bold {
+    font-weight: 700 !important;
+}
+
+.line-3-100 {
+    margin-top: 15px;
+    height: 3px;
+    width: 100px;
+    background: #4b4e53;
+}
+
+#creative .col-8 .title-content {
+    margin: 30px 0 40px 0;
+}
+
+#creative .col-6 .fes-box {
+    position: relative;
+    padding-left: 55px;
+    padding-bottom: 10px;
+}
+
+#creative .col-6 .fes-box-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #4b4e53;
+    font-size: 35px;
+}
+
+#creative .col-6 .icon-basic-mixer::before {
+    content: "\e1ac";
+}
+
+.row:before {
+    content: '\0020';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+#creative .col-6 .fes-box h3 {
+    color: #4b4e53;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#creative .col-6 .fes-box p {
+    margin: 0 0 10px;
+    color: #7e8082;
+}
+
+.icon-basic-lightbulb:before {
+    content: "\e19b";
+}
+
+.icon-basic-settings:before {
+    content: "\e1c3";
+}
+
+.icon-basic-helm:before {
+    content: "\e192";
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#responsive {
+    border-top: 1px solid #7e8082;
+}
+
+#responsive .col-6 .title-content {
+    margin: 0 auto;
+    padding: 145px 50px 140px 50px;
+    max-width: 500px;
+}
+
+#responsive .col-6 .title-content .title {
+    color: #4b4e53;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 300;
+}
+
+.bold {
+    font-weight: 700 !important;
+}
+
+.line-3-70 {
+    margin-top: 11px;
+    height: 3px;
+    width: 70px;
+    background: #4b4e53;
+}
+
+#responsive .fes-text-content {
+    margin-top: 30px;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #7e8082;
+    line-height: 25px;
+    font-weight: 300;
+}
+
+.fes2-img {
+    background: url('../assets/img/fes2.jpg') 50% 50% no-repeat;
+    width: 100%;
+    display: block;
+    position: relative;
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    height: 473px;
+    background-position: center center;
 }
