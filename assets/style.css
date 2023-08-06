@@ -998,3 +998,57 @@ footer #cont .col-3 a{
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
 }
+
+/* PORTFOLIO GRID */
+#page-small{
+    background-color: #eee;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+#page-small .col-8 h1{
+    font-size: 24px;
+    color: #4b4e53;
+    line-height: 25px;
+    letter-spacing: 5px !important;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+#page-small .breadcrumpt{
+    text-align: right;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: #7e8082;
+    text-transform: uppercase;
+}
+#page-small .breadcrumpt a{
+    color: #7e8082;
+}
+#development{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #dadada;
+}
+#development .col-4 h2{
+    margin-bottom: 30px!important;
+    margin: 0;
+    padding: 15px 20px 17px 23px;
+    font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    line-height: 32px;
+    color: #4b4e53;
+    border-left: #4b4e53 2px solid;
+}
+#development .col-4 p{
+    margin: 0 0 10px;
+    color: #7e8082;
+}
+#development .col-8 .post-img img{
+    transition: all .3s cubic-bezier(.3,.1,.58,1);
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+}
