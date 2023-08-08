@@ -12,6 +12,11 @@ li {
     list-style: none !important;
 }
 
+header{
+    background-color: white;
+    padding-left: 100px;
+    width: 100%;
+}
 header .col-2 {
     display: block;
     padding: 33px 0 25px 0;
@@ -19,7 +24,7 @@ header .col-2 {
     float: left !important;
     position: relative;
     margin-left: -80px;
-    width: 133px;
+    width: 133px !important;
     z-index: 1;
 }
 
@@ -64,16 +69,79 @@ header .col-10 {
     float: right;
 }
 
-header .col-10 .current a {
-    padding: 38px 3px 5px 3px;
-    margin: 0 12px 17px 12px;
+header .col-10 .current .current {
+    padding: 38px 10px 5px 5px;
     border-bottom: 2px solid #2d4e53;
     color: #4b4e53;
     letter-spacing: 2px;
+    z-index: 905;
     background-color: transparent;
 }
-
-header .col-10 li a {
+header .col-10 .current .sub .current:hover{
+    color: #fff;
+    padding: 0 12px 0px 12px; 
+}
+header .col-10 .current .currentt:hover{
+      padding: 0 12px 0px 12px; 
+      color: #fff;
+}
+header .col-10 ul li .sub{
+    background: #4b4e53;
+    box-shadow: 0 4px 5px rgba(0,0,0,.2);
+    display: block;
+    margin-top: 40px;
+    padding: 10px 10px 10px 24px;
+    position: absolute;
+    z-index: 905;
+}
+header .col-10 ul li .sub .parent{
+    position: relative;
+}
+header .col-10 ul li .sub li {
+    font-size: 12px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+header .col-10 ul li .sub a.current{
+    color: #fff !important;
+    transition: all .2s ease 0s;
+    border: 0;
+}
+header .col-10 ul li .sub .sub{
+    left: 100%;
+    top: -10px;
+    opacity: 0;
+}
+header .col-10 ul li .sub .parent .current:hover header .col-10 ul li .sub .sub{
+    opacity: 1;
+}
+header .col-10 .sub{
+    background: #4b4e53;
+    box-shadow: 0 4px 5px rgba(0,0,0,.2);
+    display: block;
+    margin: 0;
+    padding: 10px 10px 10px 24px;
+    position: absolute;
+    z-index: 905;
+}
+header .col-10 .label-new{
+    margin-left: 5px;
+    background-color: #fde801;
+    color: #2a2b2f!important;
+    transition-property: all!important;
+    padding: 4px 6px 4px 5px;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 21px;
+    vertical-align: middle;
+}
+header .col-10 .sub .sub a{
+    padding-right: 50px;
+}
+header .col-10 .sub a {
+    color: #d3d3d3;
+}
+header .col-10 li a{
     font-size: 12px;
     color: #5c6066;
     z-index: 1;
@@ -364,6 +432,55 @@ p {
     transition: all .3s cubic-bezier(.3, .1, .58, 1);
     max-width: 100%;
     height: auto;
+}
+#picture .post-overlay{
+    padding: 50px !important;
+    position: absolute;
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    z-index: 2;
+    transition: all .3s cubic-bezier(.3,.1,.58,1);
+    margin: 0;
+    border: 0;
+    outline: 0;
+}
+#picture .post-overlay .title-content{
+    transition: all .4s cubic-bezier(.3,.1,.58,1);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+#picture .post-overlay .title-content h3{
+    margin: 0;
+    font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #4b4e53;
+}
+#picture .post-overlay .title-content h3 a{
+    color: #fff;
+    outline: 0!important;
+    transition: all .3s ease 0s;
+}
+#picture .post-overlay .title-content span a{
+    color: #bebebe;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+#picture .post-overlay .btn-content a{
+    color: #bebebe;
+    font-size: 18px;
+}
+#picture .post-overlay .title-content span a:hover{
+    color: #fff;
+}
+#picture .post-overlay .btn-content a:hover{
+    color: #fff;
 }
 
 .view-more {
@@ -728,7 +845,7 @@ p {
 #slider {
     background: url('../assets/img/sky.jpg');
     background-size: 100%;
-    padding-top: 100px;
+    padding-top: 200px;
     padding-bottom: 100px;
 }
 
@@ -1116,4 +1233,114 @@ footer #cont .col-3 a{
     max-width: 100%;
     height: auto;
     overflow: hidden;
+    -webkit-transition: all .3s cubic-bezier(.3,.1,.58,1);
+}
+#light-bg .post-overlay{
+    padding: 30px;
+    position: absolute;
+    background-color: black;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 255px;;
+    height: 250px;
+    opacity: 0.8;
+    z-index: 2;
+    transition: all .3s cubic-bezier(.3,.1,.58,1);
+    margin: 0;
+    border: 0;
+    outline: 0;
+    /* padding-top: 20px; */
+}
+#light-bg .img .col-3:hover .post-overlay{
+    display: block;
+
+} 
+#light-bg .img .col-3:hover .post-img img{
+    transform: scale(1.3) translateZ(0);
+
+}
+#light-bg .post-img::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255,255,255,0);
+    transition: all .27s cubic-bezier(.3,.1,.58,1);
+}
+#light-bg .post-overlay  h3 a{
+    margin: 0;
+    font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: white; 
+    font-weight: 600;
+}
+#light-bg .post-overlay i{
+    color: #bebebe;
+}
+#light-bg .post-overlay i:hover{
+    color: #fff;
+}
+#light-bg .post-overlay span{
+    color: #bebebe;
+    display: flex;
+    flex-direction: row;
+}
+#light-bg .post-overlay span a{
+    color: #bebebe;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+#light-bg .post-overlay span a:hover{
+    color: #fff;
+}
+/* SHOP-SINGLE */
+#single{
+    padding-top: 140px;
+    padding-bottom: 140px;
+    width: 100%;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+#single .container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#single .row{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+#single .col-4{
+    margin-bottom: 50px;
+}
+#single .img{
+    margin-bottom: 25px;
+}
+#single .img img{
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+#single .sale{
+    position: absolute;
+     margin-top: -20px;
+    margin-right: 3px; 
+    font-size: 13px;
+}
+#single .sale span{
+    display: inline-block;
+    padding-top: 17px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50%;
+    background: #ffea00;
+    color: #4b4e53;
 }
