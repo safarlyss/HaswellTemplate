@@ -1328,10 +1328,13 @@ footer #cont .col-3 a{
     height: auto;
     width: 100%;
 }
+#single .img a:hover{
+    opacity: .6;
+}
 #single .sale{
     position: absolute;
-     margin-top: -20px;
-    margin-right: 3px; 
+    margin-top: -500px;
+    margin-left: 300px;
     font-size: 13px;
 }
 #single .sale span{
@@ -1343,4 +1346,170 @@ footer #cont .col-3 a{
     border-radius: 50%;
     background: #ffea00;
     color: #4b4e53;
+}
+#single .img-row .col-4{
+    margin-bottom: -25px;
+    width: 33.33333333%;
+}
+#single .img-row .col-4 a:hover{
+    opacity: .6;
+}
+#single .img-row .col-4 img{
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    margin: 0;
+    padding: 0;
+}
+#single .col-8 h3{
+    font-size: 24px;
+    letter-spacing: normal;
+    line-height: 33px;
+    margin: 26px 0 16px 0;
+}
+#single .col-8 .col-6{
+    margin-bottom: 30px!important;
+}
+#single .col-8 .col-6 strong{
+    font-size: 24px;
+    color: #4b4e53;
+}
+#single .col-8 .col-6 span{
+    color: #4b4e53!important;
+}
+#single .col-8 .col-6 i{
+   font-size: 12px; 
+}
+.fa{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+#single .col-6 form select{
+    border: 1px solid #dedede;
+    font-size: 12px;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 9px 20px 9px 10px;
+    color: #4b4e53;
+}
+#single .col-4 input{
+    border: 1px solid #dedede;
+    padding: 9px 15px;
+}
+#single .col-8 .btn{
+    color: #fff;
+    background-color: #535961;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 2px;
+    transition: all .3s ease 0s;
+    position: relative;
+}
+/* }
+#single .col-8 .fa{
+    color: #7e8082;
+    margin-left: 15px;
+} */
+#single .div{
+    color: #7e8082;
+}
+#single .div a{
+    color: black;
+}
+#single .tab{
+    margin-top: 50px;
+}
+#single .tab ul{
+    margin-bottom: 20px!important;
+    border-bottom: 1px solid #ddd;
+    padding-left: 0;
+}
+#single .tab ul li{
+    float: left;
+    margin-bottom: -1px;
+    padding-bottom:10px ;
+}
+#single .tab ul li .active{
+    color: #101010;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+#single .tab ul li a{
+    border-radius: 0;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 14px 20px !important;
+    color: #4b4e53;
+}
+#single .tab-content p{
+    color: #7e8082;
+}
+#single .product .col-3{
+    margin-top: 25px;
+}
+#single .product .col-3 img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+#single .product .col-3 h3{
+    margin: 0;
+    font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+#single .product .col-3 h3 a{
+    color: #4b4e53;
+
+}
+#single .product .col-3 strong{
+    color: black;
+}
+#single .product .col-3 img:hover{
+    opacity: 0.6;
+}
+#icons{
+    background-color: #303236;
+    padding-top: 110px;
+    padding-bottom: 80px;
+}
+#icons .col-3 i{
+    font-size: 40px;
+    line-height: 40px;
+    color: white;
+}
+#icons .col-3 h6{
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-size: 12px;
+    letter-spacing: normal;
+    line-height: 18px;
+    margin: 18px 0 13px 0;
+}
+#firma{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+#firma img{
+    height: 100px;
+    max-width: 100%;
+}
+#firma .col-2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-left: 1px solid #eee;
+    border-bottom: 1px soldi #eee;
+    text-align: center;
 }
